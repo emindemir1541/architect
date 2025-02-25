@@ -19,6 +19,7 @@ public:
     inline static const string PURPLE = "\033[35m";
     inline static const string CYAN = "\033[36m";
     inline static const string WHITE = "\033[37m";
+    inline  static const string RESET = "\033[0m";
 };
 
 
@@ -29,7 +30,7 @@ public:
 
     LevelItem(const char *level, string color)
         : level(level),
-          color(color) {
+          color(std::move(color)) {
     }
 
     static LevelItem ERROR() {
@@ -55,10 +56,34 @@ public:
 
 class Logger {
 public:
-    static void log(const LevelItem &level, const char *message) {
-        cout << level.color << "[" << level.level << "] " << "\033[0m" << message << endl;
+private:
+    static void log(const LevelItem &level, const string &message) {
+        cout << level.color << "[" << level.level << "] " << LevelColor::RESET << message << endl;
+    }
+
+public:
+    static void error(const string &processName, const string &message) {
+        log(LevelItem::ERROR(), processName + LevelColor::BLUE+" -> " + LevelColor::RESET + message);
+    }
+
+    static void warning(const string &message) {
+        log(LevelItem::WARNING(), message);
+    }
+
+    static void info(const string &message) {
+        log(LevelItem::INFO(), message);
+    }
+
+    static void debug(const string &message) {
+        log(LevelItem::DEBUG(), message);
+    }
+
+    static void success(const string &message) {
+        log(LevelItem::SUCCESS(), message);
     }
 };
+
+
 
 
 #endif //LOGGER_H

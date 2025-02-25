@@ -55,8 +55,8 @@ build CMakeFiles/architect.dir/main.cpp.o: CXX_COMPILER__architect_unscanned_Deb
   OBJECT_DIR = CMakeFiles/architect.dir
   OBJECT_FILE_DIR = CMakeFiles/architect.dir
 
-build CMakeFiles/architect.dir/util/logger.cpp.o: CXX_COMPILER__architect_unscanned_Debug /Users/neo/CLionProjects/architect/util/logger.cpp || cmake_object_order_depends_target_architect
-  DEP_FILE = CMakeFiles/architect.dir/util/logger.cpp.o.d
+build CMakeFiles/architect.dir/util/execute_util.cpp.o: CXX_COMPILER__architect_unscanned_Debug /Users/neo/CLionProjects/architect/util/execute_util.cpp || cmake_object_order_depends_target_architect
+  DEP_FILE = CMakeFiles/architect.dir/util/execute_util.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/architect.dir
   OBJECT_FILE_DIR = CMakeFiles/architect.dir/util
@@ -69,7 +69,7 @@ build CMakeFiles/architect.dir/util/logger.cpp.o: CXX_COMPILER__architect_unscan
 #############################################
 # Link the executable architect
 
-build architect: CXX_EXECUTABLE_LINKER__architect_Debug CMakeFiles/architect.dir/main.cpp.o CMakeFiles/architect.dir/util/logger.cpp.o
+build architect: CXX_EXECUTABLE_LINKER__architect_Debug CMakeFiles/architect.dir/main.cpp.o CMakeFiles/architect.dir/util/execute_util.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/architect.dir
   POST_BUILD = :

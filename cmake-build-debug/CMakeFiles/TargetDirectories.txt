@@ -1,0 +1,3 @@
+/Users/neo/CLionProjects/architect/cmake-build-debug/CMakeFiles/architect.dir
+/Users/neo/CLionProjects/architect/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/neo/CLionProjects/architect/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,0 @@
-# ninja log v6
-4	646	1740503023810920779	CMakeFiles/architect.dir/ui/viewer.cpp.o	74d79bbb85e7b3f1
-9	691	1740508561476150434	CMakeFiles/architect.dir/util/execute_util.cpp.o	7788570d9e99419f
-7	703	1740489604764440445	CMakeFiles/architect.dir/util/logger.cpp.o	ef31fd4b78dcfd8a
-1	56	1740508583499138836	build.ninja	b74be9dcff7266c7
-9	737	1740508561475812030	CMakeFiles/architect.dir/main.cpp.o	521d59149f472155
-738	855	1740508562204442685	architect	8967854bfa6b8aae

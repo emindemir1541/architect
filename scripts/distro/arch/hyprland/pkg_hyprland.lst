@@ -15,6 +15,7 @@ bluez-utils                                            # bluetooth utility cli
 blueman                                                # bluetooth manager gui
 brightnessctl                                          # screen brightness control
 udiskie                                                # manage removable media
+ddcui                                                  # GUI to control brightness for external monitors
 
 # --------------------------------------------------- // Display Manager
 sddm                                                   # display manager for KDE plasma
@@ -62,25 +63,13 @@ qt5-wayland                                            # wayland support in qt5
 qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
-firefox                                                # browser
 kitty                                                  # terminal
-dolphin                                                # kde file manager
-ark                                                    # kde file archiver
-unzip                                                  # extracting zip files
-vim                                                    # terminal text editor
-code                                                   # ide text editor
-nwg-displays                                           # monitor management utility
-fzf                                                    # Command-line fuzzy finder
 
-# --------------------------------------------------- // Shell
-eza|zsh                                                # file lister for zsh
-# oh-my-zsh-git|zsh                                    #  plugin manager for zsh (Optional) // Moved to pkg_extra.lst
-zsh-theme-powerlevel10k-git|zsh                        # theme for zsh
-pokego-bin|zsh                                        # display pokemon sprites in terminal (written GO)
-eza|fish                                               # file lister for fish
-starship|fish                                          # customizable shell prompt
-fastfetch                                              # system information fetch tool
+# --------------------------------------------------- // Lock screen
+#swaylock-effects-git                                   # swaylock with effects // very minimal lockscreen
 
-# --------------------------------------------------- // HyDE
-# hyde-cli-git                                           # cli tool to manage hyde \\ Deprecated for HyDE
-hypridle                                               # idle daemon
+
+# --------------------------------------------------- // Apps
+wttrbar                                                # for weather
+python-requests|wttrbar                                # script dependency
+

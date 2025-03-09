@@ -1,0 +1,31 @@
+# ---------------------------------------------------- //main
+brave-bin                                              # browser
+zen-browser-bin                                        # browser
+
+# ---------------------------------------------------- //terminal
+#pokego-bin|zsh                                        # display pokemon sprites in terminal (written GO)
+# oh-my-zsh-git|zsh                                      # Optional plugin manager for zsh
+# pokemon-colorscripts-git|zsh                           # display pokemon sprites (optional)
+
+# --------------------------------------------------- // Gaming
+#steam                                                  # gaming platform
+#gamemode                                               # daemon and library for game optimizations
+#mangohud                                               # system performance overlay
+# gamescope                                            # micro-compositor for gaming
+# lutris                                               # Lutris is an open source gaming platform for Linux
+
+# --------------------------------------------------- // Misc
+#xdg-desktop-portal-gtk                                 # xdg desktop portal using gtk
+# emote                                                # emoji picker gtk3
+
+# --------------------------------------------------- // Music
+cava                                                   # audio visualizer
+spotify                                                # proprietary music streaming service
+#spicetify-cli                                          # cli to customize spotify client
+
+# --------------------------------------------------- // Editor
+# vscodium-marketplace|vscodium                         # VSCodium marketplace
+# code-marketplace|code                                 # Code-Oss marketplace
+# visual-studio-code-bin                                # MS  text editor
+
+
